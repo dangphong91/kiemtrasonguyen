@@ -6,7 +6,5 @@ while (phandu == 1 && number >= 0 ) {
     number = Number(prompt("Nhập một số nguyên dương:"));
     phannguyen = parseInt(number);
     phandu = number / phannguyen;
-    continue;
-    break;
 }
 alert("Số vừa nhập không hợp lệ !")
